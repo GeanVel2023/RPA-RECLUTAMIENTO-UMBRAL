@@ -1,0 +1,13 @@
+{
+  "rutas": {
+    "pdfs": "C:\\RPA_Reclutamiento",
+    "salida_json": "C:\\RPA_Reclutamiento\\json",
+    "procesados": "C:\\RPA_Reclutamiento\\pdfProcesados",
+    "log": "C:\\RPA_Reclutamiento\\log_rpa.txt"
+  },
+  "parametros": {
+    "intervalo_segundos": 60,
+    "extensiones_permitidas": [".pdf"],
+    "codificacion": "utf-8"
+  }
+}
