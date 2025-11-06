@@ -1,0 +1,1 @@
+Carpeta para almacenar los flujos exportados de Power Automate (.zip o .json)
