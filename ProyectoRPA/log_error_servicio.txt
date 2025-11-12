@@ -1,0 +1,92 @@
+[12/11/2025  0:51:12.77] Iniciando servicio RPA Reclutamiento... 
+Traceback (most recent call last):
+  File "C:\RPA_PYTHOM\ProyectoRPA\servicio_rpa_reclutamiento.py", line 31, in cargar_config
+    print(f"\u2699\ufe0f Configuración cargada correctamente desde {CONFIG_PATH}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harman\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\RPA_PYTHOM\ProyectoRPA\servicio_rpa_reclutamiento.py", line 40, in <module>
+    config = cargar_config()
+  File "C:\RPA_PYTHOM\ProyectoRPA\servicio_rpa_reclutamiento.py", line 35, in cargar_config
+    print(msg)
+    ~~~~~^^^^^
+  File "C:\Users\harman\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+[Wed 11/12/2025  0:55:42.65] Iniciando servicio RPA Reclutamiento... 
+[12/11/2025  0:56:28.84] Iniciando servicio RPA Reclutamiento... 
+Traceback (most recent call last):
+  File "C:\RPA_PYTHOM\ProyectoRPA\servicio_rpa_reclutamiento.py", line 31, in cargar_config
+    print(f"\u2699\ufe0f Configuración cargada correctamente desde {CONFIG_PATH}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harman\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\RPA_PYTHOM\ProyectoRPA\servicio_rpa_reclutamiento.py", line 40, in <module>
+    config = cargar_config()
+  File "C:\RPA_PYTHOM\ProyectoRPA\servicio_rpa_reclutamiento.py", line 35, in cargar_config
+    print(msg)
+    ~~~~~^^^^^
+  File "C:\Users\harman\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\RPA_PYTHOM\ProyectoRPA\servicio_rpa_reclutamiento.py", line 31, in cargar_config
+    print(f"\u2699\ufe0f Configuración cargada correctamente desde {CONFIG_PATH}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harman\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\RPA_PYTHOM\ProyectoRPA\servicio_rpa_reclutamiento.py", line 40, in <module>
+    config = cargar_config()
+  File "C:\RPA_PYTHOM\ProyectoRPA\servicio_rpa_reclutamiento.py", line 35, in cargar_config
+    print(msg)
+    ~~~~~^^^^^
+  File "C:\Users\harman\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+Configuración cargada correctamente desde C:\RPA_PYTHOM\ProyectoRPA\config_rpa.json
+Iniciando modo manual de prueba...
+Proceso manual finalizado correctamente.
+[2025-11-12 01:14:42] Iniciando como servicio...
+[2025-11-12 01:14:42] Error al iniciar servicio: (1063, 'StartServiceCtrlDispatcher', 'The service process could not connect to the service controller.')
+Traceback (most recent call last):
+  File "c:\RPA_PYTHOM\ProyectoRPA\servicio_rpa_reclutamiento.py", line 132, in <module>
+    servicemanager.StartServiceCtrlDispatcher()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+pywintypes.error: (1063, 'StartServiceCtrlDispatcher', 'The service process could not connect to the service controller.')
+
+[2025-11-12 01:15:05] Iniciando como servicio...
+[2025-11-12 01:17:58] Error al iniciar servicio: (1063, 'StartServiceCtrlDispatcher', 'The service process could not connect to the service controller.')
+Traceback (most recent call last):
+  File "c:\RPA_PYTHOM\ProyectoRPA\servicio_rpa_reclutamiento.py", line 163, in <module>
+    servicemanager.StartServiceCtrlDispatcher()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+pywintypes.error: (1063, 'StartServiceCtrlDispatcher', 'The service process could not connect to the service controller.')
+
+[2025-11-12 01:28:14] Error al iniciar servicio: (1063, 'StartServiceCtrlDispatcher', 'The service process could not connect to the service controller.')
+Traceback (most recent call last):
+  File "c:\RPA_PYTHOM\ProyectoRPA\servicio_rpa_reclutamiento.py", line 172, in <module>
+    servicemanager.StartServiceCtrlDispatcher()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+pywintypes.error: (1063, 'StartServiceCtrlDispatcher', 'The service process could not connect to the service controller.')
+
